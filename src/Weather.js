@@ -4,8 +4,8 @@ import './Weather.css';
 
 export default function Weather() {
   let weatherData = {
-    city: "New York",
-    temperature: 19,
+    city: "London",
+    temperature: 23,
     date: "Tuesday 10:00",
     description: "Cloudy",
     imgUrl: "https://ssl.gstatic.com/onebox/weather/64/sunny.png",
@@ -15,6 +15,16 @@ export default function Weather() {
 
   return (
     <div className="Weather">
+      <ul className='city-list'>
+        <li className='navigation-item'>
+          <a href='/'>Lisbon</a></li>
+        <li >
+          <a href='/'>Paris</a></li>
+        <li>
+          <a href='/'>Sydney</a></li>
+        <li>
+          <a href='/'>San Francisco</a></li>
+      </ul>
       <form className="mb-3">
         <div className="row">
           <div className="col-9">

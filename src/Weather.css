@@ -66,4 +66,7 @@
     line-height: 15px;
     white-space: nowrap;
   }
-  
+  a {
+    text-decoration: none;
+    color: blue;
+  }
