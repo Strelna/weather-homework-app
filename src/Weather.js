@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import './Weather.css';
 
+
 export default function Weather() {
   let weatherData = {
     city: "London",
@@ -18,11 +19,11 @@ export default function Weather() {
       <ul className='city-list'>
         <li className='navigation-item'>
           <a href='/'>Lisbon</a></li>
-        <li >
+        <li className='navigation-item'>
           <a href='/'>Paris</a></li>
-        <li>
+        <li className='navigation-item'>
           <a href='/'>Sydney</a></li>
-        <li>
+        <li className='navigation-item'>
           <a href='/'>San Francisco</a></li>
       </ul>
       <form className="mb-3">
