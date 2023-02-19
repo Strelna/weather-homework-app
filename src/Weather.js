@@ -37,13 +37,21 @@ export default function Weather() {
               autoComplete="off"
             />
           </div>
-          <div className="col-3">
+          <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+          <div className="col-2">
             <input
               type="submit"
               value="Search"
               className="btn btn-primary w-100"
             />
           </div>
+          <div className="col-2">
+            <input
+              type="submit"
+              value="Current"
+              className="btn btn-success w-100"
+            />
+          </div></div>
         </div>
       </form>
       <div className="overview">
