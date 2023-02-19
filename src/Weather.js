@@ -27,6 +27,7 @@ export default function Weather() {
         <li className='navigation-item'>
           <a href='/'>San Francisco</a></li>
       </ul>
+    
       <form className="mb-3">
         <div className="row">
           <div className="col-9">
@@ -37,7 +38,6 @@ export default function Weather() {
               autoComplete="off"
             />
           </div>
-          <div class="d-grid gap-2 d-md-flex justify-content-md-end">
           <div className="col-2">
             <input
               type="submit"
@@ -45,13 +45,6 @@ export default function Weather() {
               className="btn btn-primary w-100"
             />
           </div>
-          <div className="col-2">
-            <input
-              type="submit"
-              value="Current"
-              className="btn btn-success w-100"
-            />
-          </div></div>
         </div>
       </form>
       <div className="overview">
@@ -61,6 +54,7 @@ export default function Weather() {
           <li>{weatherData.description}</li>
         </ul>
       </div>
+     
       <div className="row">
         <div className="col-6">
           <div className="clearfix weather-temperature">
@@ -85,9 +79,10 @@ export default function Weather() {
         </div>
       </div>
     </div>
+    <div className="text-center mt-3">
     <small>
         <a href="https://github.com/Strelna/weather-homework-app">Open sourced</a>by<a href="https://www.linkedin.com/in/olena-dudnyk/"> Olena Dudnyk</a>
-</small>
+</small></div>
    </div>
   );
 }
