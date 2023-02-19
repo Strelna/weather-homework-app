@@ -15,6 +15,7 @@ export default function Weather() {
   };
 
   return (
+    <div className='container'>
     <div className="Weather">
       <ul className='city-list'>
         <li className='navigation-item'>
@@ -76,5 +77,9 @@ export default function Weather() {
         </div>
       </div>
     </div>
+    <small>
+        <a href="https://github.com/Strelna/weather-homework-app">Open sourced</a>by<a href="https://www.linkedin.com/in/olena-dudnyk/"> Olena Dudnyk</a>
+</small>
+   </div>
   );
 }
